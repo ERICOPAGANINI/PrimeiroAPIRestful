@@ -23,7 +23,7 @@ public class Account {
 	@Column(scale = 13, precision = 2)
 	private BigDecimal balance;
 	
-	@Column(name = "addition_limit",  scale = 13, precision = 2 )
+	@Column(name = "addition_limit",  precision = 13, scale = 2 )
 	private BigDecimal limit;
 	
 	
